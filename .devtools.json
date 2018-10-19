@@ -1,0 +1,11 @@
+{
+  "title": "Github",
+  "favicon": "src/favicon.ico",
+  "build": {
+    "styles": [
+      "src/style.css",
+      "src/fonts.css",
+      "src/indigo-pink.css"
+    ]
+  }
+}

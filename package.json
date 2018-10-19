@@ -1,0 +1,58 @@
+{
+  "name": "ng-find-user-github-project",
+  "version": "1.0.0",
+  "description": "Displays a user’s GitHub projects and lets you view the project’s README",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "postinstall": "gulp vendor.bundle",
+    "start": "gulp --watch --livereload --open",
+    "build": "gulp build",
+    "tasks": "gulp --tasks",
+    "clean.all": "gulp clean.all",
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/ng-find-user-github-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/ng-find-user-github-project/issues"
+  },
+  "homepage": "https://github.com/aelbore/ng-find-user-github-project#readme",
+  "dependencies": {
+    "@angular/animations": "7.0.0-rc.1",
+    "@angular/cdk": "6.4.7",
+    "@angular/common": "7.0.0-rc.1",
+    "@angular/compiler": "7.0.0-rc.1",
+    "@angular/core": "7.0.0-rc.1",
+    "@angular/elements": "7.0.0-rc.1",
+    "@angular/forms": "7.0.0-rc.1",
+    "@angular/http": "7.0.0-rc.1",
+    "@angular/material": "6.4.7",
+    "@angular/platform-browser": "7.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "7.0.0-rc.1",
+    "@angular/router": "7.0.0-rc.1",
+    "@webcomponents/custom-elements": "1.2.0",
+    "core-js": "2.5.7",
+    "custom-elements-ts": "0.0.15",
+    "marked": "0.5.1",
+    "rxjs": "6.3.3",
+    "rxjs-compat": "6.3.3",
+    "systemjs": "0.21.4",
+    "zone.js": "0.8.26"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "7.0.0-rc.1",
+    "@ngx-devtools/task": "2.0.0-beta.18",
+    "@types/jasmine": "2.8.9",
+    "jasmine-core": "3.2.1",
+    "karma": "3.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.2",
+    "karma-mocha-reporter": "2.2.5",
+    "karma-typescript": "3.0.13"
+  }
+}

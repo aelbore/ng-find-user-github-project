@@ -1,0 +1,17 @@
+{
+  "config": {
+    "bundles": {
+      "node_modules/.tmp/Rx.min.js": [ "rxjs", "rxjs/*"  ]
+    },
+    "packages": {
+      "dist": { "defaultExtension": "js"  }
+    }   
+  },
+  "vendors": [
+    "node_modules/.tmp/angular.min.js"
+  ],
+  "components": [
+    "main/bundles/main.umd.js",
+    "elements/bundles/elements.umd.js"
+  ]
+}
